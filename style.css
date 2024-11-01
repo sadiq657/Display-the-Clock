@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/03/09/43/clock-4314041_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock-container {
+    width: 300px;
+    margin: 50px auto;
+    margin-top: 250px;
+    padding: 20px;
+    background-color: #e40d0d;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+
+#current-time {
+    font-size: 48px;
+    font-weight: bold;
+}
